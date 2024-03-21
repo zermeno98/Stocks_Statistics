@@ -1,34 +1,4 @@
 
-#when query  stock = yf.Ticker(ticker_symbol)   example  ES=F
-#data = {
-#    'maxAge': 86400,
-#    'priceHint': 2,
-#    'previousClose': 4801.25,
-#   'open': 4797.75,
-#   'dayLow': 4794.75,
-#    'dayHigh': 4798.75,
-#    'regularMarketPreviousClose': 4801.25,
-#    'regularMarketOpen': 4797.75,
-#    'regularMarketDayLow': 4794.75,
-#    'regularMarketDayHigh': 4798.75,
-#    'volume': 29915,
-#    'regularMarketVolume': 29915,
-#    'averageVolume': 1607393,
-#    'averageVolume10days': 1312906,
-#    'averageDailyVolume10Day': 1312906,
-#   'expireDate': 1710460800,
-#    'openInterest': 2231396,
-#    'fiftyTwoWeekLow': 3808.75,
-#   'fiftyTwoWeekHigh': 4841.5,
-#    'fiftyDayAverage': 4567.845,
-#    'twoHundredDayAverage': 4394.1665,
-#    'currency': 'USD',
-#    'exchange': 'CME',
-#    'quoteType': 'FUTURE',
-#    'symbol': 'ESH24.CME',
-#   'underlyingSymbol': 'ES=F',
-#    'shortName': 'E-Mini S&P 500 Mar 24',
-
 import streamlit as st
 import yfinance as yf
 import plotly.graph_objs as go
@@ -53,7 +23,6 @@ from ta.volatility import BollingerBands
 
 # 0.  Futures dataframe to check if the user wants futures or equities
 
-#Global Variables
 
 import streamlit as st
 import pandas as pd
