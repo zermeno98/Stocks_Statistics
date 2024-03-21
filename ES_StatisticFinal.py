@@ -750,11 +750,6 @@ styled_text = f"""
 st.markdown(styled_text, unsafe_allow_html=True)
 
 
-
-#    AQUII  ME QUEDE #################################
-
-
-
 #..-....... OTHER   Create a bar chart
 
 fig = go.Figure()
