@@ -1,0 +1,17 @@
+streamlit
+yfinance
+plotly.graph_objs
+altair
+plotly.figure_factory
+plotly.express
+matplotlib.pyplot
+seaborn
+pandas
+numpy
+scipy
+warnings
+streamlit_extras.colored_header
+datetime
+ta.utils
+ta.volatility
+
